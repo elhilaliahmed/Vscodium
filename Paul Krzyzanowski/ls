@@ -1,0 +1,22 @@
+total 60
+drwxr-xr-x  17 root  root   4096 Dec  5 13:25 .
+drwxr-xr-x  17 root  root   4096 Dec  5 13:25 ..
+lrwxrwxrwx   1 root  root      7 Sep  3 00:30 bin -> usr/bin
+drwxr-xr-x   3 root  root   4096 Jan 16 05:08 boot
+drwxr-xr-x  21 root  root   4040 Jan 21 18:04 dev
+drwxr-xr-x  74 root  root   4096 Jan 21 18:05 etc
+drwxr-xr-x   4 root  root   4096 Dec  5 02:01 home
+lrwxrwxrwx   1 root  root      7 Sep  3 00:30 lib -> usr/lib
+lrwxrwxrwx   1 root  root      7 Sep  3 00:30 lib64 -> usr/lib
+drwx------   2 root  root  16384 Dec  5 13:18 lost+found
+drwxr-xr-x   2 ahmed ahmed  4096 Sep  3 00:30 mnt
+drwxr-xr-x   7 root  root   4096 Jan  5 08:52 opt
+dr-xr-xr-x 310 root  root      0 Jan 21 18:04 proc
+drwxr-x---  16 root  root   4096 Jan 14 19:56 root
+drwxr-xr-x  22 root  root    580 Jan 21 18:04 run
+lrwxrwxrwx   1 root  root      7 Sep  3 00:30 sbin -> usr/bin
+drwxr-xr-x   4 root  root   4096 Dec  5 13:25 srv
+dr-xr-xr-x  13 root  root      0 Jan 21 18:04 sys
+drwxrwxrwt  10 root  root   9500 Jan 21 18:43 tmp
+drwxr-xr-x  10 root  root   4096 Jan 18 04:45 usr
+drwxr-xr-x  13 root  root   4096 Jan 21 18:04 var

@@ -1,0 +1,47 @@
+@startuml
+skinparam style strictuml
+skinparam DefaultFontName Arial
+skinparam DefaultFontSize 16
+skinparam DefaultFontStyle bold
+skinparam ArrowThickness 2.2
+skinparam ArrowColor #gray
+hide empty members
+
+class "Player" as Player {
+  name : String
+}
+
+class "Die" as Die {
+  value : int
+}
+
+class "RiskGame" as Game {
+}
+
+class "RiskBoard" as Board {
+}
+
+class "Country" as Country {
+  name : String
+}
+
+Game "1" *-- "1" Board : Is-played-on >
+
+Game "1" *-- "5" Die : Is-played-with >
+
+Game "1" *-- "2..6" Player : Plays <
+
+Player "1" -- "1,2,3" Die : Throws >
+
+Board "1" *-- "42" Country : Contains >
+
+Country "1" -- "*" Country : Is-neighbor-of >
+
+Player "1" -- "*" Country : Controls >
+
+(Player, Country) .. Occupation
+
+class Occupation {
+  nArmies : int
+}
+@enduml
